@@ -1,4 +1,4 @@
-# Server-List Retrieval and Communication App
+# Dynamic Server Interaction
 
 This Python script, built with the Kivy framework, creates an application that not only retrieves a server list from a server but also enables users to join servers and communicate with others. The loading screen features engaging animations, a progress bar, and a label. As the application transitions to the main screen, users can interact with the server list, join servers, and engage in communication.
 
