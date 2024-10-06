@@ -51,7 +51,7 @@ class ChatClient:
         self.online_list.pack(fill="both", expand=True)
 
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.client.connect(("", server_port))
+        self.client.connect(("0.0.0.0", server_port))  # IP HERE
 
         self.username = username
         self.client.send(self.username.encode('utf-8'))
